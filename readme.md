@@ -1,0 +1,6 @@
+1. What is OCR (Optical Character Recognition)?
+OCR (Optical Character Recognition) is a technology that converts text from images, scanned documents, or photos into editable and searchable digital text. It helps computers recognize printed or handwritten characters automatically. OCR saves time because people do not have to type the text manually.
+2. Why is Urdu OCR harder than English OCR?
+Urdu OCR is more difficult than English OCR because Urdu is written from right to left and its letters change shape depending on their position in a word. Many Urdu letters look very similar and are distinguished only by dots, making them harder for computers to recognize accurately. In addition, connected writing styles and different fonts increase the complexity of Urdu OCR.
+3. What are 2 real-world situations where Urdu OCR would be useful?
+One useful application of Urdu OCR is digitizing old Urdu books, newspapers, and historical documents so they can be searched and preserved electronically. Another application is extracting text from printed forms, bills, or government documents, allowing organizations to store and process information more efficiently. These uses reduce manual data entry, save time, and improve access to Urdu-language information.
