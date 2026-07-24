@@ -12,7 +12,7 @@ Actual Urdu Text:
 
 آگے پٹرول پمپ ہے۔
 
-Tesseract Output: ٹا ہس تی ۴سط ہرد سور ری
+Tesseract Output:                                                                                                                              ٹا ہس تی ۴سط ہرد سور ری
 
 What went wrong?
 
