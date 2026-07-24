@@ -5,3 +5,70 @@ Urdu OCR is more difficult than English OCR because Urdu is written from right t
 3. What are 2 real-world situations where Urdu OCR would be useful?
 One useful application of Urdu OCR is digitizing old Urdu books, newspapers, and historical documents so they can be searched and preserved electronically. Another application is extracting text from printed forms, bills, or government documents, allowing organizations to store and process information more efficiently. These uses reduce manual data entry, save time, and improve access to Urdu-language information.
 
+WHY WE NEED A BETTER MODEL?
+Gap Analysis
+Image 1: sign3.jpg.jpeg
+Actual Urdu Text:
+
+آگے پٹرول پمپ ہے۔
+
+Tesseract Output: ٹا ہس تی ۴سط ہرد سور ری
+
+What went wrong?
+
+Tesseract incorrectly recognized the Urdu text. Most words were wrong and the output did not match the original sentence.
+
+Image 2: book1.jpg.jpeg
+Actual Urdu Text:
+
+شاعری ادب کی اعلیٰ ترین صنف ہے۔
+
+Tesseract Output:
+
+No text detected.
+
+What went wrong?
+
+Tesseract failed to detect the Urdu text and returned a blank output.
+
+Image 3: news1.jpg.jpeg
+Actual Urdu Text:
+
+غیر ملکی خبر رساں ادارے اے ایف پی کی رپورٹ کے
+
+Tesseract Output:
+
+غیرملکی خبررساں ادارے اے ایف پی کی رپورٹ کے
+
+What went wrong?
+
+Tesseract recognized most of the sentence but merged some words together and spacing was incorrect.
+
+Image 4: news11.jpg.jpeg
+Actual Urdu text
+
+کراچی (نیوز ڈیسک) پاکستان نے اپنی سب سے بڑی فعال چینی
+
+Tesseract Output:
+
+9:6
+
+What went wrong?
+
+Tesseract detected only a few incorrect characters and failed to recognize the Urdu sentence.
+
+Image 5: news10.jpg.jpeg
+Actual Urdu Text:
+
+سرپرستی میں منعقدہ ایک ثقافتی تقریب کے دوران
+
+Tesseract Output:
+
+وپ اہ اک ار ری کے لوان
+
+What went wrong?
+
+Tesseract recognized only a few incorrect words and missed most of the original text.
+
+Summary
+Tesseract fails on Urdu because Urdu is a cursive script with connected characters and complex shapes. The default Tesseract OCR model could recognize only some parts of the text, while many words were incorrect, missing, or not detected. Therefore, a better OCR model trained specifically for Urdu is needed for accurate text recognition.
