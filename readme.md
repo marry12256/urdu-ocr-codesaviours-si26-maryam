@@ -182,7 +182,7 @@ Even with the low accuracy, the project was successfully taken from dataset coll
 
 ## 7. Credit
 
-**Maryam**
+**Maryam Farhan**
 
 Built during the **Code Saviours ML/AI Internship — Batch SI-26**.
 
