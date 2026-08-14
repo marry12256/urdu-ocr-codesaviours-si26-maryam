@@ -118,6 +118,11 @@ The trained Urdu OCR model is deployed as a **Streamlit web application**.
 
 **[Open Live Urdu OCR App](https://marry12256-urdu-ocr-codesaviours-si26-maryam-app-oioulg.streamlit.app/)**
 
+### Working Demo
+
+The following screenshot shows the deployed Urdu OCR application with an Urdu image uploaded and the extracted text output.
+![Urdu OCR Working Demo](demo.jpeg)
+
 ## 4. How to Run It Locally
 
 ### Step 1: Clone the Repository
